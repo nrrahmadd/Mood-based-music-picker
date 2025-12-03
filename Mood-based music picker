@@ -48,7 +48,7 @@ instruction_label.pack(pady=5)
 
 mood_list = list(music_available.keys())
 selected_mood = tk.StringVar(root)
-selected_mood.set(mood_list[0])  # default mood
+selected_mood.set(mood_list[0]) 
 
 mood_menu = tk.OptionMenu(root, selected_mood, *mood_list)
 mood_menu.config(font=("Arial", 10))
